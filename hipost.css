@@ -1,0 +1,25 @@
+body {
+	background-image: url("http://static1.squarespace.com/static/53c8a99ae4b0047dfb9a845e/53c8ab28e4b06e7bc8444ac4/557efbfee4b0c3993def560d/1442874805474/?format=1500w");
+	background-size: cover;
+	border: 2px solid; 
+	border-style: none;
+	margin-left:15px;
+	margin-right:100px;
+	margin-top:5px;
+	margin-bottom: 15px;
+
+}
+
+.page-content2 {
+	font-family: courier;
+	font-size: 50px;
+	text-align: bottom-center;
+	color: white;
+	text-align: right;
+}
+
+img {
+	transform: rotate(-10deg);
+}
+
+

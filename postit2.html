@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>PostIt</title>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+      <link href="poststyle.css" rel="stylesheet" type="text/css">
+      
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    
+  </head>
+ 
+  <body>
+
+  <ul class="nav">
+  <li><a href="/">Home</a></li>
+  <li><a href="https://sv.wikipedia.org/wiki/Post-It">About PostIts</a></li>
+  <li><a href="file:///Users/louisebrandrup-wognsen/Desktop/Webpages/hyperpostit.html">Top Consumers</a></li>
+  <li><a href="http://www.post-it.com/3M/en_US/post-it/products/~/Post-it-Products/Notes/?N=4327+5927575+3294529207+3294857497&rt=r3">Consume some more</a></li>
+</ul>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    
+      <h1>PostIts</h1>
+    
+      <h2>How many PostIts have <br>  been sold in Sweden <br> since u entered this page?</h2>
+      
+     
+
+        <h4 class="page-content"></h4>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    <div class="container">
+        <div class="ct-chart"></div>
+          <script src="postit.js"></script>
+          <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+    </div>
+  
+    
+  
+
+      <script type="text/javascript">
+
+      var count=0;
+
+      (function(){
+      // do some stuff
+      count+= 5073;
+      $(".page-content").html(count);
+
+      setTimeout(arguments.callee, 1000);
+      })();
+
+      </script> 
+
+
+  </body>
+  
+</html>
